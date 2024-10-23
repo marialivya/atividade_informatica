@@ -1,1 +1,1 @@
-# Atividade de Informática Aplicadada a Web.
+# Atividade de Informática Aplicadada a Web
