@@ -1,5 +1,8 @@
 const nomeCompleto = "Alan Mathison Turing";
-const [primeiroNome, ...resto] = nomeCompleto.split(' ').reverse();
-const iniciais = resto.map(nome => nome[0] + '.').join(' ');
+const nomes = nomeCompleto.split(' ');
 
-console.log(`${iniciais} ${primeiroNome}`);
+const sobrenome = nomes.pop(); 
+const primeiroNome = nomes.shift(); 
+const iniciais = nomes.map(nome => nome[0] + '.').join(' '); 
+
+console.log(`${sobrenome[0]}. ${iniciais} ${primeiroNome}`);
